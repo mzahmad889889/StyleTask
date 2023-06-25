@@ -1,15 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Home from "./component/Home"
+import React from "react"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-     <h1>Hello React With tailwindCSS</h1>
-    </>
+    <h1  style={{textAlign: 'center', fontSize: '36px', marginTop: '30px', fontWeight: '700px'}}>Animation Website</h1>
+   <Home/>
+   </>
   )
 }
 
